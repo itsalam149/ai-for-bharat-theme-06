@@ -1,0 +1,67 @@
+
+> theme-06@0.1.0 lint
+> eslint
+
+
+/Users/faqrealam149/Desktop/ai for bharat/theme-06/app/admin/engines/page.tsx
+   7:3   warning  'Rss' is defined but never used             @typescript-eslint/no-unused-vars
+   8:3   warning  'Cpu' is defined but never used             @typescript-eslint/no-unused-vars
+   9:15  warning  'SettingsIcon' is defined but never used    @typescript-eslint/no-unused-vars
+  11:3   warning  'CheckCircle' is defined but never used     @typescript-eslint/no-unused-vars
+  12:3   warning  'AlertTriangle' is defined but never used   @typescript-eslint/no-unused-vars
+  13:3   warning  'Zap' is defined but never used             @typescript-eslint/no-unused-vars
+  14:3   warning  'MoreHorizontal' is defined but never used  @typescript-eslint/no-unused-vars
+  19:3   warning  'Database' is defined but never used        @typescript-eslint/no-unused-vars
+
+/Users/faqrealam149/Desktop/ai for bharat/theme-06/app/analysis/safety-alerts/page.tsx
+    8:3    warning  'ExternalLink' is defined but never used                         @typescript-eslint/no-unused-vars
+   10:3    warning  'CheckCircle' is defined but never used                          @typescript-eslint/no-unused-vars
+   11:3    warning  'AlertCircle' is defined but never used                          @typescript-eslint/no-unused-vars
+   13:3    warning  'Search' is defined but never used                               @typescript-eslint/no-unused-vars
+   14:3    warning  'Filter' is defined but never used                               @typescript-eslint/no-unused-vars
+   18:3    warning  'History' is defined but never used                              @typescript-eslint/no-unused-vars
+  148:35   error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  148:144  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  148:219  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  312:63   error    Unexpected any. Specify a different type                         @typescript-eslint/no-explicit-any
+
+/Users/faqrealam149/Desktop/ai for bharat/theme-06/app/dashboard/page.tsx
+    8:3   warning  'ArrowUpRight' is defined but never used                         @typescript-eslint/no-unused-vars
+   24:23  warning  'MOCK_PROJECTS' is defined but never used                        @typescript-eslint/no-unused-vars
+   26:10  warning  'StatusBadge' is defined but never used                          @typescript-eslint/no-unused-vars
+   58:48  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+   58:55  error    `'` can be escaped with `&apos;`, `&lsquo;`, `&#39;`, `&rsquo;`  react/no-unescaped-entities
+  253:19  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  253:42  error    `"` can be escaped with `&quot;`, `&ldquo;`, `&#34;`, `&rdquo;`  react/no-unescaped-entities
+  304:97  error    Unexpected any. Specify a different type                         @typescript-eslint/no-explicit-any
+
+/Users/faqrealam149/Desktop/ai for bharat/theme-06/app/projects/[id]/page.tsx
+    6:3   warning  'Play' is defined but never used           @typescript-eslint/no-unused-vars
+   13:3   warning  'Filter' is defined but never used         @typescript-eslint/no-unused-vars
+   16:3   warning  'ChevronRight' is defined but never used   @typescript-eslint/no-unused-vars
+   18:3   warning  'AlertTriangle' is defined but never used  @typescript-eslint/no-unused-vars
+  337:55  error    Unexpected any. Specify a different type   @typescript-eslint/no-explicit-any
+
+/Users/faqrealam149/Desktop/ai for bharat/theme-06/app/projects/new/page.tsx
+   16:3   warning  'XCircle' is defined but never used       @typescript-eslint/no-unused-vars
+  315:84  error    Unexpected any. Specify a different type  @typescript-eslint/no-explicit-any
+
+/Users/faqrealam149/Desktop/ai for bharat/theme-06/components/layout/Header.tsx
+  4:10  warning  'cn' is defined but never used  @typescript-eslint/no-unused-vars
+
+/Users/faqrealam149/Desktop/ai for bharat/theme-06/components/layout/Sidebar.tsx
+  102:15  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+/Users/faqrealam149/Desktop/ai for bharat/theme-06/components/projects/ProjectCard.tsx
+   7:3   warning  'Rss' is defined but never used          @typescript-eslint/no-unused-vars
+   9:3   warning  'TrendingUp' is defined but never used   @typescript-eslint/no-unused-vars
+  10:3   warning  'ShieldAlert' is defined but never used  @typescript-eslint/no-unused-vars
+  11:3   warning  'BarChart2' is defined but never used    @typescript-eslint/no-unused-vars
+  55:41  warning  'i' is defined but never used            @typescript-eslint/no-unused-vars
+
+/Users/faqrealam149/Desktop/ai for bharat/theme-06/lib/mock-data.ts
+  1:15  warning  'SourceType' is defined but never used  @typescript-eslint/no-unused-vars
+  1:27  warning  'FlagType' is defined but never used    @typescript-eslint/no-unused-vars
+
+✖ 42 problems (11 errors, 31 warnings)
+
