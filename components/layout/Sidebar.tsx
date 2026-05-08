@@ -63,7 +63,7 @@ export default function Sidebar() {
         <div className="w-8 h-8 bg-indigo-600 rounded-lg flex items-center justify-center">
           <Activity className="w-5 h-5 text-white" />
         </div>
-        <span className="text-slate-800 font-bold text-lg tracking-tight">HealthPulse</span>
+        <span className="text-slate-800 font-bold text-lg tracking-tight">NEURAL HIVE</span>
       </div>
 
       <nav className="flex-1 px-4 space-y-8 mt-4">

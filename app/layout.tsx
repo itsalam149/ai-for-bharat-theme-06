@@ -10,8 +10,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "HealthPulse | Real-Time Social Listening & Patient Safety",
-  description: "Clinical-grade platform for monitoring patient experience and safety signals across social media.",
+  title: "NEURAL HIVE | Autonomous Patient Safety Swarm",
+  description: "Self-evolving multi-agent social listening swarm for predicting patient safety signals.",
 };
 
 export default function RootLayout({
